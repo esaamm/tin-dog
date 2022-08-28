@@ -1,0 +1,202 @@
+/* Imp Note:
+1.To bring everything on the page in the center , we need to bring everything on the page inside an id or class then
+  in that id or class use text-align:center . */
+
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+}
+
+.navbar {
+  padding: 0px 0px 50px 0px;
+}
+
+.down-one {
+  margin-top: 5%;
+}
+
+.image-one {
+  transform: rotate(25deg);
+  width: 15rem;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  font-family: 'Ubuntu';
+}
+
+.image-one {
+  position: absolute;
+  left: 16%;
+  margin-top: 0;
+}
+
+@media (max-width:992px) {
+  .image-one {
+    position: static;
+    transform: rotate(0);
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+/* 2nd Web Page */
+.web-two {
+  padding: 20px;
+  margin-top: 200px auto 0px;
+  /* height:100%; */
+}
+
+span {
+  font-size: 4.5rem;
+  width: 100%;
+  /* padding:15px; */
+  height: 40px;
+  text-align: center;
+  color: #ef8172;
+}
+
+.hov:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  padding-top: 15px;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.pd {
+  padding-top: 13%;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Web Page 3 */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 3rem;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+.testimonials-image {
+  border-radius: 70%;
+  width: 15%;
+  margin: 10px 20px 0px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.press-img {
+  padding: 2rem;
+  width: 15rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Web Page 4 */
+.heading-page3 {
+  color: #000;
+  font-family: 'Montserrat-bold', sans-serif;
+  /* line-height: 3rem; */
+  font-size: 3rem;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-space {
+  padding: 2% 3%;
+}
+
+.head-pg-3 {
+  color: #000;
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 3rem;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Web Page 4 */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align:center;
+
+}
+
+.ok{
+  color: #fff;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 4rem;
+  line-height: 1.3;
+  margin-bottom:50px;
+}
+
+
+
+/* Web Page 5 */
+
+#footer{
+  background-color:#fff;
+  height:400px;
+  text-align:center;      /* Brings the two buttons in the center . */
+
+  padding:7% 15%;
+}
+
+i{
+  padding:10px;
+}
+
+.last{
+  margin-top:20px;
+  font-size:1rem;
+}
